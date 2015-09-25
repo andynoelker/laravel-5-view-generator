@@ -21,6 +21,7 @@ public function register()
         $this->app->register('Andynoelker\Laravel5ViewGenerator\ViewGeneratorServiceProvider');
     }
 }
+```
 
 ## Usage
 
