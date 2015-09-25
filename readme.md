@@ -14,7 +14,7 @@ composer require andynoelker/laravel-5-view-generator
 
 Because you only want to use this generator for development, you will want to add it to the provider located in `app/Providers/AppServiceProvider.php` instead of adding to the providers array inside `config/app.php`.
 
-```
+```php
 public function register()
 {
     if ($this->app->environment() == 'local') {
