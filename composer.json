@@ -1,0 +1,21 @@
+{
+    "name": "andynoelker/laravel-5-view-generator",
+    "description": "Adds a Blade view generator to Laravel 5.",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Noelker",
+            "email": "andynoelker@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "Andynoelker\\Laravel5ViewGenerator\\": "src/"
+        }
+    }
+}
