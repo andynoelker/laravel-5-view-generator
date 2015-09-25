@@ -1,6 +1,26 @@
 # Detailed readme coming soon
 
-This Laravel 5 package adds a view generator to make your development process easier.
+This Laravel 5 package adds a Blade view generator to make your development process easier.
+
+## Installation
+
+### Step 1: Install Through Composer
+
+```
+composer require andynoelker/laravel-5-view-generator
+```
+
+### Step 2: Add the Service Provider
+
+Because you only want to use this generator for development, you will want to add it to the provider located in `app/Providers/AppServiceProvider.php` instead of adding to the providers array inside `config/app.php`.
+
+```
+public function register()
+{
+    if ($this->app->environment() == 'local') {
+        $this->app->register('Andynoelker\Laravel5ViewGenerator\ViewGeneratorServiceProvider');
+    }
+}
 
 ## Usage
 
