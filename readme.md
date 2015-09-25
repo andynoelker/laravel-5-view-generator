@@ -1,4 +1,4 @@
-# Detailed readme coming soon
+# Laravel 5 View Generator
 
 This Laravel 5 package adds a Blade view generator to make your development process easier.
 
